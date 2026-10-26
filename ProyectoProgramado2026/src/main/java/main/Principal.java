@@ -8,7 +8,7 @@ package main;
  *
  * @author blood
  */
-public class ProyectoProgramado2026 {
+public class Principal {
 
     public static void main(String[] args) {
         System.out.println("Hola, soy Leo");
