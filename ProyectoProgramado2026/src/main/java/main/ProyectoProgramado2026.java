@@ -12,5 +12,6 @@ public class ProyectoProgramado2026 {
 
     public static void main(String[] args) {
         System.out.println("Hola, soy Leo");
+        System.out.println ("prueba");
     }
 }
