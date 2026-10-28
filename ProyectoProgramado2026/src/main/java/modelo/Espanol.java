@@ -8,6 +8,15 @@ package modelo;
  *
  * @author blood
  */
-public class Espanol {
+public class Espanol extends Asignatura {
+    
+    public Espanol() {
+        super();
+    }
+
+    @Override
+    public boolean evaluarRespuesta(String respuesta) {
+        return false;
+    }
     
 }

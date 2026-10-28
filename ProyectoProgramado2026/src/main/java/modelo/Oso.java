@@ -8,6 +8,35 @@ package modelo;
  *
  * @author blood
  */
-public class Oso {
+public class Oso extends Personajes {
+    
+    private String rasgoUnico;
+
+    public Oso() {
+        super();
+    }
+
+    public Oso(String nombre, int vidas, String dificultad) {
+        super();
+        setNombre(nombre);
+        setVidas(vidas);
+        setDificultad(dificultad);
+    }
+
+    public String getRasgoUnico() {
+        return rasgoUnico;
+    }
+
+    public void setRasgoUnico(String rasgoUnico) {
+        this.rasgoUnico = rasgoUnico;
+    }
+
+    @Override
+    public void perderVida() {
+    }
+
+    public boolean estaVivo() {
+        return false;
+    }
     
 }

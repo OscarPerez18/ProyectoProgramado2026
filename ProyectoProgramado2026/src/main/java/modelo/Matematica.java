@@ -8,6 +8,15 @@ package modelo;
  *
  * @author blood
  */
-public class Matematica {
+public class Matematica extends Asignatura {
+    
+    public Matematica() {
+        super();
+    }
+
+    @Override
+    public boolean evaluarRespuesta(String respuesta) {
+        return false;
+    }
     
 }

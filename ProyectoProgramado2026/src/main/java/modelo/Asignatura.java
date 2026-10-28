@@ -8,6 +8,30 @@ package modelo;
  *
  * @author blood
  */
-public class Asignatura {
+public abstract class Asignatura {
+    
+    private Pregunta pregunta;
+    private String titulo;
+
+    public Asignatura() {
+    }
+
+    public Pregunta getPregunta() {
+        return pregunta;
+    }
+
+    public void setPregunta(Pregunta pregunta) {
+        this.pregunta = pregunta;
+    }
+
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
+
+    public abstract boolean evaluarRespuesta(String respuesta);
     
 }
