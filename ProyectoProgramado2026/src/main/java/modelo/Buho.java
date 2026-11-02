@@ -6,7 +6,7 @@ package modelo;
 
 /**
  *
- * @author blood
+ * @author HP
  */
 public class Buho extends Personajes {
     
