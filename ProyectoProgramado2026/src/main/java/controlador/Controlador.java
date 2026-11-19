@@ -16,7 +16,7 @@ public class Controlador {
     private Capitulo capitulo;
     private Personajes personaje;
 
-    private Juego juego;
+    private GUI_Juego juego;
     private InfoPersonajes infoPersonajes;
     private MenuPrincipal menu;
     private Instrucciones instrucciones;
@@ -40,11 +40,11 @@ public class Controlador {
         this.personaje = personaje;
     }
 
-    public Juego getJuego() {
+    public GUI_Juego getJuego() {
         return juego;
     }
 
-    public void setJuego(Juego juego) {
+    public void setJuego(GUI_Juego juego) {
         this.juego = juego;
     }
 
